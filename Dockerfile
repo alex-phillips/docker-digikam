@@ -5,7 +5,7 @@ ARG BUILD_DATE
 ARG VERSION
 ARG WIRESHARK_VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
-LABEL maintainer="thelamer"
+LABEL maintainer="hackerman"
 
 RUN \
  echo "**** install packages ****" && \
